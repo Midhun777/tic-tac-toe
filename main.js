@@ -10,7 +10,7 @@ function checkResult() {
 	var box7 = document.getElementById('box-7').value;
 	var box8 = document.getElementById('box-8').value;
 
-	var resultText = document.getElementById('result-1');
+	var resultText = document.getElementById('result');
 
 	//Capital O
 	if (box0 == 'O' && box1 == 'O' && box2 == 'O') {
