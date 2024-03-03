@@ -153,3 +153,5 @@ function reset() {
 }
 
 setInterval(checkResult, 700);
+
+//jjjj
