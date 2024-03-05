@@ -12,6 +12,8 @@ function checkResult() {
 
 	var resultText = document.getElementById('result');
 
+		resultText.innerHTML = 'Draw or Insufficient Data!';
+
 	//Capital O
 	if (box0 == 'O' && box1 == 'O' && box2 == 'O') {
 		resultText.innerHTML = 'O Won!';
